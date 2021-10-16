@@ -22,15 +22,9 @@ aditya_face_encoding = face_recognition.face_encodings(aditya_image)[0]
 #nimish_image = face_recognition.load_image_file("nimish.jpg")
 #nimish_face_encoding = face_recognition.face_encodings(nimish_image)[0]
 
-#nayan_image = face_recognition.load_image_file("nayan.jpg")
-#nayan_face_encoding = face_recognition.face_encodings(nayan_image)[0]
-
-#himanshu_image = face_recognition.load_image_file("himanshu.jpg")
-#himanshu_face_encoding = face_recognition.face_encodings(himanshu_image)[0]
-
 # Create arrays of known face encodings and their names
-#known_face_encodings = [aditya_face_encoding,nimish_face_encoding,nayan_face_encoding,himanshu_face_encoding]
-#known_face_names = ["Aditya","Nimish","Nayan","Himanshu"]
+#known_face_encodings = [aditya_face_encoding,nimish_face_encoding]
+#known_face_names = ["Aditya","Nimish"]
 known_face_encodings = [aditya_face_encoding]
 known_face_names = ["Aditya"]
 
